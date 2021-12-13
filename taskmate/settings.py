@@ -136,3 +136,5 @@ LOGIN_REDIRECT_URL = 'todolist'
 LOGIN_URL = "login"
 
 django_heroku.settings(locals())
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
